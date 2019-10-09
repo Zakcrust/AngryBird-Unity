@@ -26,9 +26,9 @@ public class Bomb : MonoBehaviour
                     Rigidbody2DExtension.AddExplosionForce(body,500,AreaOfEffect.gameObject.transform.position,10f,100f);
                 }
             }
-            Destroy(gameObject);
+            
         }
-
+        Destroy(gameObject);
     }
 
 }
